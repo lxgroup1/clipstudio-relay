@@ -1,10 +1,14 @@
 {
   "name": "clipstudio-relay",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "TikTok OAuth callback relay for Clip Studio (bridges TikTok HTTPS requirement to localhost)",
+  "description": "TikTok OAuth relay + YouTube downloader resolver for Clip Studio (bridges TikTok HTTPS requirement + bypasses YouTube IP blocking)",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.4",
+    "@vercel/node": "^3.2.0"
   }
 }

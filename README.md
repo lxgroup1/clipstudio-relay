@@ -19,6 +19,7 @@ Relay **tidak menyimpan** apa pun. Hanya pass-through.
 | Path | Fungsi |
 |------|--------|
 | `GET /api/callback` | Terima callback TikTok, redirect ke `localhost:8783/oauth/tiktok/callback` dengan parameter `code` + `state` |
+| `POST /api/yt-resolve` | YouTube → direct MP4 URL. Body: `{"url":"..."}`. Resp: `{"url":"https://...googlevideo.com/...", "title":"...", "thumbnail":"...", "duration":123}`. Pakai IP Vercel yg bersih untuk lewat blokir YouTube ke IP server lokal. |
 
 ## Deploy ke Vercel
 
