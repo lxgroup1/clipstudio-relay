@@ -1,0 +1,10 @@
+{
+  "name": "clipstudio-relay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TikTok OAuth callback relay for Clip Studio (bridges TikTok HTTPS requirement to localhost)",
+  "engines": {
+    "node": ">=18"
+  }
+}
