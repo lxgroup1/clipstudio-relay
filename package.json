@@ -1,9 +1,8 @@
 {
   "name": "clipstudio-relay",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
-  "type": "module",
-  "description": "TikTok OAuth relay + YouTube downloader resolver for Clip Studio (bridges TikTok HTTPS requirement + bypasses YouTube IP blocking)",
+  "description": "TikTok OAuth relay + YouTube downloader resolver for Clip Studio",
   "engines": {
     "node": ">=18"
   },
